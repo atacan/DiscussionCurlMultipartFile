@@ -95,7 +95,7 @@ fileprivate extension UniversalServer where APIHandler: APIProtocol {
                             case "file":
                                 try converter.verifyContentTypeIfPresent(
                                     in: headerFields,
-                                    matches: "application/octet-stream"
+                                    matches: "text/plain"
                                 )
                                 let body = try converter.getRequiredRequestBodyAsBinary(
                                     OpenAPIRuntime.HTTPBody.self,
