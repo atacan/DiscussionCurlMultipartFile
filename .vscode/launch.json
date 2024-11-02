@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:DiscussionCurlMultipartFile}",
+            "name": "Debug DiscussionCurlMultipartFile",
+            "program": "${workspaceFolder:DiscussionCurlMultipartFile}/.build/debug/DiscussionCurlMultipartFile",
+            "preLaunchTask": "swift: Build Debug DiscussionCurlMultipartFile"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:DiscussionCurlMultipartFile}",
+            "name": "Release DiscussionCurlMultipartFile",
+            "program": "${workspaceFolder:DiscussionCurlMultipartFile}/.build/release/DiscussionCurlMultipartFile",
+            "preLaunchTask": "swift: Build Release DiscussionCurlMultipartFile"
+        }
+    ]
+}
